@@ -1,2 +1,2 @@
 # rithvikram.github.io
-Rithvik's website
+[Rithvik's website](https://rithvikram.github.io)
