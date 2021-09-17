@@ -1,6 +1,11 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+html, body{
     background: linear-gradient(purple,cyan);
-    height: 900px;
+    height: 100%;
+}
+.whole{
+    height:100%;
 }
 .header{
     --background: rgba(150, 150, 150, 0.25);
@@ -18,18 +23,72 @@ body{
     height: 50px;
 }
 a{
-    color: white;
+    color: whitesmoke;
     text-decoration: none;
 }
 a:hover {
-    color: greenyellow;
+    color: orange;
     text-shadow: 1px 1px 10px orange;
+    /* font-family: Lobster; */
 }
 .container{
+    display: flex;
     background: rgba(0, 0, 0,0.5);
     color: white;
     text-align: center;
+    border-radius: 20px;
+    margin: 40px 10px 0px 10px;
+    overflow:auto;
 }
 #lobster{
-    font-family: lobs;
+    font-family: Lobster, sans-serif;
+    font-size: 50px;
+}
+.lbox{
+    flex: 60%;
+    padding: 30px;
+}
+.rbox{
+    /* background: linear-gradient(green,red); */
+    /* background-image: "../images/Monkey-Mayhem.jpg"; */
+    flex: 40%;
+    overflow: hidden;
+}
+li{
+    list-style-type: none;
+}
+.btn{
+    padding-top: 10px;
+    border: 3px solid cyan;
+    margin: auto;
+    margin-top: 40px;
+    height: 30px;
+    width: 180px;
+    background-color: white;
+    border-radius: 155px;
+    box-shadow: 3px 3px 10px lightgray;
+}
+.btn:hover{
+    background-color: black;
+    border: 3px solid white;
+}
+#cta{
+    text-align: center;
+    color: royalblue;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.title{
+    font-family: Lobster;
+}
+.subhead{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.gamelist{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 30px;
+}
+.gameitem{
+    margin-bottom: 9px;
 }
